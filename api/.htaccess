@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /bettr/api/
+
+RewriteRule ^(cfg)($|/) - [L]
+RewriteRule ^api api.php
+</IfModule>
